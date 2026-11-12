@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>JJTECHNONIC Publisher</title>
-<meta name="description" content="JJTECHNONIC Publisher sends approved videos from the JJTECHNONIC Office to the owner's TikTok account as drafts. The owner reviews and publishes each post in the TikTok app.">
+<meta name="description" content="JJTECHNONIC Publisher is a planned tool, not built yet, for uploading owner-approved videos from the JJTECHNONIC Office to the owner's TikTok account as drafts. TikTok connection and uploads are not currently available.">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -22,39 +22,51 @@
 <main>
   <div class="card">
     <h1>JJTECHNONIC Publisher</h1>
-    <p class="meta">A publishing tool operated by JJTECHNONIC, Philippines.</p>
+    <p class="meta">A publishing tool in development, operated by JJTECHNONIC, Philippines.</p>
 
-    <p>JJTECHNONIC Publisher is the publishing component of the JJTECHNONIC Office, a video production workspace that runs on the operator's own computer. When a video is finished and the account owner approves it in the Office, the Publisher uploads it to the owner's TikTok account as a <strong>draft</strong>. The owner then opens the TikTok app, finishes the post (caption, cover, music and settings) and decides whether to publish it. The Publisher never publishes anything itself.</p>
+    <div class="note">
+      <p><strong>Current status: in development.</strong> JJTECHNONIC Publisher has not been built yet. TikTok account connection and video uploads are <strong>not currently available</strong>, and the Publisher collects no TikTok data. Everything marked <strong>Planned</strong> on this site describes how the Publisher is designed to work once it is built.</p>
+    </div>
 
-    <h2>How it works</h2>
+    <h2>Available now</h2>
     <ul>
-      <li><strong>Connect.</strong> The account owner signs in with TikTok (Login Kit) and approves the requested permissions on TikTok's own consent screen.</li>
-      <li><strong>See the connected account.</strong> The Publisher shows the connected account's display name and avatar, so the owner can confirm the right account is in use.</li>
-      <li><strong>Review and approve.</strong> In the Office, the owner previews the finished video and its suggested caption, hashtags and cover, and approves that specific upload. Nothing is uploaded without this approval.</li>
-      <li><strong>Upload as a draft.</strong> The Publisher sends the approved video to the owner's TikTok inbox. TikTok notifies the owner, who finishes and publishes the post in the TikTok app.</li>
-      <li><strong>Disconnect at any time.</strong> The owner can disconnect the account, which revokes the Publisher's access and deletes its stored tokens and account data.</li>
+      <li>This website, which describes the planned Publisher.</li>
+      <li>The <a href="terms.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a>.</li>
+      <li>Contact by email at <a href="mailto:paemalcaz03@gmail.com">paemalcaz03@gmail.com</a>.</li>
     </ul>
 
-    <h2>What it does not do</h2>
+    <h2>What it is planned to be</h2>
+    <p>JJTECHNONIC Publisher is being designed as the publishing component of the JJTECHNONIC Office, a video production workspace that runs on the operator's own computer. Once built, when a video is finished and the account owner approves it in the Office, the Publisher is intended to upload it to the owner's TikTok account as a <strong>draft</strong>. The owner would then open the TikTok app, finish the post (caption, cover, music and settings) and decide whether to publish it manually. The Publisher is designed never to publish anything itself.</p>
+
+    <h2>Planned workflow</h2>
     <ul>
-      <li>It does not publish posts. Every post is finished and published by the account owner in the TikTok app.</li>
-      <li>It does not upload automatically, on a schedule, or in the background without the owner's approval.</li>
-      <li>It does not read your existing TikTok videos, followers, comments, messages or analytics.</li>
-      <li>It does not show ads, sell data, or share TikTok data with third parties.</li>
+      <li><strong>Connect (Planned).</strong> The account owner signs in with TikTok (Login Kit) and approves the requested permissions on TikTok's own consent screen.</li>
+      <li><strong>See the connected account (Planned).</strong> The Publisher shows the connected account's display name and avatar, so the owner can confirm the right account is in use.</li>
+      <li><strong>Review and approve (Planned).</strong> In the Office, the owner previews the finished video and its suggested caption, hashtags and cover, and approves that specific upload. Nothing is to be uploaded without this approval.</li>
+      <li><strong>Upload as a draft only (Planned).</strong> The Publisher sends the approved video to the owner's TikTok inbox. TikTok notifies the owner, who finishes and publishes the post manually in the TikTok app.</li>
+      <li><strong>Disconnect at any time (Planned).</strong> The owner can disconnect the account; the Publisher is designed to then revoke its access and delete its stored tokens and account data.</li>
     </ul>
 
-    <h2>TikTok products and permissions used</h2>
+    <h2>What it is designed not to do</h2>
+    <ul>
+      <li>It is not designed to publish posts. Every post will be finished and published by the account owner in the TikTok app.</li>
+      <li>It is not designed to upload automatically, on a schedule, or in the background without the owner's approval.</li>
+      <li>It is not designed to read your existing TikTok videos, followers, comments, messages or analytics.</li>
+      <li>It will not show ads, sell data, or share TikTok data with third parties.</li>
+    </ul>
+
+    <h2>Planned TikTok products and permissions</h2>
     <div class="table-wrap">
     <table>
-      <tr><th>Product</th><th>Permission (scope)</th><th>Why it is needed</th></tr>
-      <tr><td>Login Kit</td><td><code>user.info.basic</code></td><td>To identify the connected account and show its display name and avatar.</td></tr>
-      <tr><td>Content Posting API (Upload)</td><td><code>video.upload</code></td><td>To upload an approved video to the account's TikTok inbox as a draft.</td></tr>
+      <tr><th>Product</th><th>Permission (scope)</th><th>Planned use</th></tr>
+      <tr><td>Login Kit (Planned)</td><td><code>user.info.basic</code></td><td>To identify the connected account and show its display name and avatar.</td></tr>
+      <tr><td>Content Posting API, Upload (Planned)</td><td><code>video.upload</code></td><td>To upload an approved video to the account's TikTok inbox as a draft.</td></tr>
     </table>
     </div>
-    <p>The Publisher requests no other TikTok permissions.</p>
+    <p>The Publisher is designed to request no other TikTok permissions. None of these permissions are requested or used today.</p>
 
     <h2>Policies and contact</h2>
-    <p>Read the <a href="terms.html">Terms of Service</a> and the <a href="privacy.html">Privacy Policy</a>. For questions, privacy requests or disconnection help, email <a href="mailto:paemalcaz03@gmail.com">paemalcaz03@gmail.com</a>.</p>
+    <p>Read the <a href="terms.html">Terms of Service</a> and the <a href="privacy.html">Privacy Policy</a>. For questions or privacy requests, email <a href="mailto:paemalcaz03@gmail.com">paemalcaz03@gmail.com</a>.</p>
 
     <p class="meta">JJTECHNONIC Publisher is an independent tool. It is not made, endorsed or operated by TikTok or ByteDance. TikTok is a trademark of its owner.</p>
   </div>

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy Policy</title>
-<meta name="description" content="Privacy Policy for JJTECHNONIC Publisher, including how TikTok data and permissions are used, protected and deleted.">
+<meta name="description" content="Privacy Policy for JJTECHNONIC Publisher, a TikTok draft-upload tool that is currently in development: what it collects today and how TikTok data is planned to be used, protected and deleted.">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -24,95 +24,108 @@
     <h1>Privacy Policy</h1>
     <p class="meta">Effective date: November 12, 2026 &middot; Last updated: November 12, 2026</p>
 
-    <p>This Privacy Policy explains what information JJTECHNONIC Publisher (the "Publisher") collects, how it uses TikTok data and permissions, how that data is protected, and how you can disconnect your account and have your data deleted. The Publisher is operated by JJTECHNONIC ("we", "us"), Philippines, who is responsible for this data.</p>
+    <div class="note">
+      <p><strong>Current status: in development.</strong> JJTECHNONIC Publisher has not been built yet. As of the date above, it cannot connect to TikTok, and it collects, receives and stores <strong>no TikTok data</strong>. Section 1 describes what is collected today. Sections marked <strong>Planned</strong> describe how the Publisher is designed to handle data once it is built. We will update this policy, and the "Last updated" date, before any of those features go live.</p>
+    </div>
 
-    <h2>1. Summary</h2>
+    <p>This Privacy Policy explains what information JJTECHNONIC Publisher (the "Publisher") collects now, how it is designed to use TikTok data and permissions once built, how that data is planned to be protected, and how disconnection and deletion are planned to work. The Publisher is operated by JJTECHNONIC ("we", "us"), Philippines, who is responsible for this data.</p>
+
+    <h2>1. What we collect today</h2>
     <ul>
-      <li>The Publisher uses TikTok Login Kit and the Content Posting API (Upload), with two permissions: <code>user.info.basic</code> and <code>video.upload</code>.</li>
-      <li>It uses them only to identify your connected account and to upload videos you have approved to your TikTok inbox as drafts. You publish every post yourself in the TikTok app.</li>
-      <li>Your data is stored on the operator's own computer, not in a cloud database run by us.</li>
-      <li>We do not sell, rent or share TikTok data, use it for advertising, or use it to train AI models.</li>
-      <li>You can disconnect at any time, and your stored tokens and account data are then deleted.</li>
+      <li><strong>TikTok data:</strong> none. No TikTok account can be connected yet, so we receive no TikTok account information, tokens or content.</li>
+      <li><strong>Emails you send us:</strong> if you write to <a href="mailto:paemalcaz03@gmail.com">paemalcaz03@gmail.com</a>, we receive your email address and message, and use them only to reply.</li>
+      <li><strong>This website:</strong> it does not use cookies, analytics trackers, or tracking pixels. It is hosted on GitHub Pages; GitHub, as the hosting provider, may process technical data such as visitors' IP addresses to deliver and secure the site, under GitHub's own privacy policy.</li>
     </ul>
 
-    <h2>2. Information we receive from TikTok</h2>
+    <h2>2. Planned summary</h2>
+    <ul>
+      <li>The Publisher is designed to use TikTok Login Kit and the Content Posting API (Upload), with two permissions: <code>user.info.basic</code> and <code>video.upload</code>.</li>
+      <li>It is designed to use them only to identify your connected account and to upload videos you have approved to your TikTok inbox as drafts. You will publish every post yourself, manually, in the TikTok app.</li>
+      <li>Its data is designed to be stored on the operator's own computer, not in a cloud database run by us.</li>
+      <li>We will not sell, rent or share TikTok data, use it for advertising, or use it to train AI models.</li>
+      <li>You will be able to disconnect at any time, and the Publisher is designed to delete your stored tokens and account data when you do.</li>
+    </ul>
+
+    <h2>3. Information the Publisher is designed to receive from TikTok (Planned)</h2>
+    <p>None of this is collected today. Once account connection is built, the Publisher is designed to receive only:</p>
     <div class="table-wrap">
     <table>
-      <tr><th>Data</th><th>Source</th><th>How it is used</th></tr>
+      <tr><th>Data</th><th>Source</th><th>Planned use</th></tr>
       <tr><td>Open ID and Union ID (account identifiers issued by TikTok)</td><td><code>user.info.basic</code></td><td>To tell connected accounts apart and make sure each upload goes to the right account.</td></tr>
       <tr><td>Display name and avatar image link</td><td><code>user.info.basic</code></td><td>Shown so you can confirm which account is connected.</td></tr>
-      <tr><td>Access token and refresh token</td><td>TikTok sign-in (OAuth)</td><td>To call TikTok on your behalf for the permissions you granted. Never displayed or shared.</td></tr>
+      <tr><td>Access token and refresh token</td><td>TikTok sign-in (OAuth)</td><td>To call TikTok on your behalf for the permissions you granted. Not to be displayed or shared.</td></tr>
       <tr><td>Granted scopes</td><td>TikTok sign-in (OAuth)</td><td>To check which permissions you actually approved before an action is attempted.</td></tr>
       <tr><td>Upload ID and upload status</td><td><code>video.upload</code></td><td>To show whether a draft upload succeeded or failed.</td></tr>
     </table>
     </div>
-    <p>The Publisher does not request or receive your TikTok password, phone number, email address, followers, following list, messages, comments, likes, watch history, or analytics. It does not read your existing TikTok videos.</p>
+    <p>The Publisher is not designed to request or receive your TikTok password, phone number, email address, followers, following list, messages, comments, likes, watch history, or analytics, or to read your existing TikTok videos.</p>
 
-    <h2>3. Information you provide</h2>
+    <h2>4. Information you will provide (Planned)</h2>
     <ul>
-      <li><strong>Videos</strong> you approve for upload. These are your files, kept in the Office's local media storage on the operator's computer.</li>
-      <li><strong>Suggested text</strong> such as captions, hashtags and calls to action. These stay in the Office for you to copy; they are not sent to TikTok by the Publisher.</li>
-      <li><strong>Messages</strong> you send to us by email, for example a privacy or deletion request.</li>
+      <li><strong>Videos</strong> you approve for upload. These are your files, intended to be kept in the Office's local media storage on the operator's computer.</li>
+      <li><strong>Suggested text</strong> such as captions, hashtags and calls to action. These are intended to stay in the Office for you to copy; the Publisher is not designed to send them to TikTok.</li>
     </ul>
 
-    <h2>4. How we use TikTok permissions</h2>
+    <h2>5. How TikTok permissions will be used (Planned)</h2>
     <h3><code>user.info.basic</code> (Login Kit)</h3>
-    <p>Used only to identify the connected account and display its name and avatar inside the Publisher.</p>
+    <p>To be used only to identify the connected account and display its name and avatar inside the Publisher.</p>
     <h3><code>video.upload</code> (Content Posting API, Upload)</h3>
-    <p>Used only when you approve a specific finished video for upload. The Publisher then uploads that video file to your TikTok inbox as a draft and checks its upload status. It does not publish anything; you finish and publish the draft yourself in the TikTok app. The Publisher never uploads automatically, on a schedule, or in the background without your approval.</p>
-    <p>We do not use TikTok data for any other purpose, including advertising, profiling, selling, or training machine-learning or AI models.</p>
+    <p>To be used only when you approve a specific finished video for upload. The Publisher is designed to then upload that video file to your TikTok inbox as a draft and check its upload status. It is not designed to publish anything: you will finish and publish the draft yourself in the TikTok app. The Publisher is not designed to upload automatically, on a schedule, or in the background without your approval.</p>
+    <p>We will not use TikTok data for any other purpose, including advertising, profiling, selling, or training machine-learning or AI models.</p>
 
-    <h2>5. Sharing</h2>
-    <p>We do not sell, rent or trade any data. TikTok data is not shared with any third party. Data is exchanged only:</p>
+    <h2>6. Sharing</h2>
+    <p>We do not sell, rent or trade any data, now or in the future. Once the Publisher is built, TikTok data will not be shared with any third party. Data will be exchanged only:</p>
     <ul>
       <li>with <strong>TikTok</strong>, when the Publisher calls TikTok's API to carry out an action you requested; and</li>
       <li>with <strong>authorities</strong>, only if required by law, and then only the minimum required.</li>
     </ul>
 
-    <h2>6. Where data is stored and how it is protected</h2>
+    <h2>7. Planned storage and security measures (Planned)</h2>
+    <p>These measures are design requirements for the Publisher. They are not in place yet, because the Publisher does not exist yet and holds no data. The Publisher is being designed so that:</p>
     <ul>
-      <li>The Publisher runs on the operator's own computer. Account details, tokens and upload records are stored there, not in a cloud database operated by us.</li>
-      <li>Access tokens, refresh tokens and the app's client secret are stored outside the Office's code and data files, are never shown on screen or written to logs, and are not committed to any code repository.</li>
-      <li>All communication with TikTok uses HTTPS.</li>
-      <li>Access to the computer and the Office is limited to the operator and people the operator authorizes.</li>
-      <li>We request only the two permissions listed above.</li>
+      <li>it runs on the operator's own computer, with account details, tokens and upload records stored there, not in a cloud database operated by us;</li>
+      <li>access tokens, refresh tokens and the app's client secret are stored outside the Office's code and data files, are not shown on screen or written to logs, and are not committed to any code repository;</li>
+      <li>all communication with TikTok uses HTTPS;</li>
+      <li>access to the computer and the Office is limited to the operator and people the operator authorizes; and</li>
+      <li>it requests only the two permissions listed above.</li>
     </ul>
     <p>No method of storage or transmission is completely secure. If we learn of a security incident affecting your data, we will notify you and, where required, the Philippine National Privacy Commission.</p>
 
-    <h2>7. How long we keep data</h2>
+    <h2>8. How long data will be kept (Planned)</h2>
     <div class="table-wrap">
     <table>
-      <tr><th>Data</th><th>Kept until</th></tr>
+      <tr><th>Data</th><th>Planned to be kept until</th></tr>
       <tr><td>Access and refresh tokens</td><td>You disconnect, the tokens expire and are not renewed, or you ask us to delete them.</td></tr>
       <tr><td>Open ID, Union ID, display name, avatar link, granted scopes</td><td>You disconnect the account or ask us to delete it.</td></tr>
       <tr><td>Upload IDs and status records</td><td>You disconnect the account or ask us to delete them.</td></tr>
-      <tr><td>Your videos and suggested text in the Office</td><td>You delete them from the Office's media storage. Disconnecting TikTok does not delete your own files.</td></tr>
-      <tr><td>Emails you send us</td><td>As long as needed to answer your request.</td></tr>
+      <tr><td>Your videos and suggested text in the Office</td><td>You delete them from the Office's media storage. Disconnecting TikTok will not delete your own files.</td></tr>
     </table>
     </div>
+    <p><strong>Available now:</strong> emails you send us are kept only as long as needed to answer your request.</p>
 
-    <h2>8. Disconnecting your account and deleting your data</h2>
-    <p>You can disconnect your TikTok account at any time, in any of these ways:</p>
+    <h2>9. Disconnecting your account and deleting your data</h2>
+    <p><strong>Available now:</strong> no account can be connected and we hold no TikTok data, so there is nothing to disconnect or delete. You can still email <a href="mailto:paemalcaz03@gmail.com">paemalcaz03@gmail.com</a> with any privacy question or request, and we will reply within 30 days.</p>
+    <p><strong>Planned:</strong> once account connection is available, you will be able to disconnect your TikTok account at any time, in any of these ways:</p>
     <ul>
-      <li><strong>In the Publisher:</strong> choose <em>Disconnect</em> for the connected account. The Publisher asks TikTok to revoke its access, then deletes the stored tokens, account identifiers, display name, avatar link, granted scopes and upload records for that account.</li>
-      <li><strong>In the TikTok app:</strong> remove the Publisher from the apps connected to your account in your TikTok settings. The Publisher's tokens then stop working, and we delete the stored data the next time the Publisher detects the revoked access, or when you ask us.</li>
-      <li><strong>By email:</strong> write to <a href="mailto:paemalcaz03@gmail.com">paemalcaz03@gmail.com</a>. We will disconnect the account and delete its stored data within 30 days and confirm by reply.</li>
+      <li><strong>In the Publisher:</strong> a <em>Disconnect</em> option, designed to ask TikTok to revoke the Publisher's access and then delete the stored tokens, account identifiers, display name, avatar link, granted scopes and upload records for that account.</li>
+      <li><strong>In the TikTok app:</strong> removing the Publisher from the apps connected to your account in your TikTok settings. The Publisher's tokens will then stop working. The Publisher is designed to delete the stored data when it detects the revoked access; you can also ask us to delete it.</li>
+      <li><strong>By email:</strong> writing to <a href="mailto:paemalcaz03@gmail.com">paemalcaz03@gmail.com</a>. We will disconnect the account and delete its stored data within 30 days and confirm by reply.</li>
     </ul>
-    <p>Disconnecting does not delete drafts or posts already in your TikTok account. You can manage or delete those in the TikTok app.</p>
+    <p>Disconnecting will not delete drafts or posts already in your TikTok account. You manage or delete those in the TikTok app.</p>
 
-    <h2>9. Your rights</h2>
+    <h2>10. Your rights</h2>
     <p>Under the Philippine Data Privacy Act of 2012 (Republic Act No. 10173) and other applicable laws, you may have the right to be informed, to access your data, to object, to have inaccurate data corrected, to have your data erased or blocked, to data portability, and to claim damages. To use any of these rights, email <a href="mailto:paemalcaz03@gmail.com">paemalcaz03@gmail.com</a>. You may also file a complaint with the National Privacy Commission of the Philippines.</p>
 
-    <h2>10. Children</h2>
-    <p>The Publisher is not intended for anyone under 18, and we do not knowingly connect accounts belonging to minors. If you believe a minor's account has been connected, contact us and we will disconnect it and delete its data.</p>
+    <h2>11. Children</h2>
+    <p>The Publisher is not intended for anyone under 18. Once account connection is available, we will not knowingly connect accounts belonging to minors. If you believe a minor's account has been connected, contact us and we will disconnect it and delete its data.</p>
 
-    <h2>11. Cookies and tracking</h2>
-    <p>This website and the Publisher do not use advertising cookies, analytics trackers, or tracking pixels.</p>
+    <h2>12. Cookies and tracking</h2>
+    <p>This website does not use advertising cookies, analytics trackers, or tracking pixels, and the Publisher is not designed to use them either.</p>
 
-    <h2>12. Changes to this policy</h2>
-    <p>We will update the "Last updated" date when this policy changes. If we ever plan to collect new TikTok data or request a new permission, we will update this policy before doing so, and TikTok will ask you to approve the new permission.</p>
+    <h2>13. Changes to this policy</h2>
+    <p>We will update this policy as the Publisher is built, and before any planned feature goes live, changing the "Last updated" date each time. If we ever plan to collect new TikTok data or request a new permission, we will update this policy before doing so, and TikTok will ask you to approve the new permission.</p>
 
-    <h2>13. Contact</h2>
+    <h2>14. Contact</h2>
     <p>JJTECHNONIC, Philippines &middot; <a href="mailto:paemalcaz03@gmail.com">paemalcaz03@gmail.com</a></p>
 
     <p class="meta">JJTECHNONIC Publisher is an independent tool. It is not made, endorsed or operated by TikTok or ByteDance.</p>
